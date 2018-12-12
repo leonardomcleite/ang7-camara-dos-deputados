@@ -1,0 +1,45 @@
+<div class="content" *ngIf="!loading">
+  <div class="container">
+    <mat-card class="graph-card">
+      <mat-card-header>
+        <mat-card-title>Distribuição Populacional</mat-card-title>
+        <mat-card-subtitle>
+            Homens & Mulheres
+          <!-- <div class="legend" style="background: #5a95ce"></div> Homens & Mulheres
+          <div class="legend" style="background: #f9ee1b"></div> Mulheres -->
+        </mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-content>
+        <canvas baseChart 
+          [(datasets)]="barChartDistributionData"
+          [(labels)]="barChartDistributionLabels"
+          [options]="barChartOptions"
+          [legend]="barChartLegend"
+          [(colors)]="barChartDistributionColors"
+          [chartType]="barChartType"
+          (chartClick)="onChartClick($event)" class="graph">
+        </canvas>
+      </mat-card-content>
+    </mat-card>
+    <mat-card class="graph-card">
+      <mat-card-header>
+        <mat-card-title>Distribuição Partidaria</mat-card-title>
+        <!-- <mat-card-subtitle>
+          <div class="legend" style="background: #607D8B"></div> Homens & 
+          <div class="legend" style="background: #F9A825"></div> Mulheres
+        </mat-card-subtitle> -->
+      </mat-card-header>
+      <mat-card-content>
+        <canvas baseChart 
+          [(datasets)]="barChartPartidosData"
+          [(labels)]="barChartPartidosLabels"
+          [options]="barChartOptions"
+          [legend]="barChartLegend"
+          [(colors)]="barChartPartidosColors"
+          chartType="horizontalBar"
+          (chartClick)="onChartClick($event)" class="graph">
+        </canvas>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>

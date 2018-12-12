@@ -1,10 +1,125 @@
-<mat-sidenav-container class="example-container">
-  <mat-sidenav #sidenav mode="side">
-    <p><button mat-button (click)="sidenav.toggle()">Toggle</button></p>
+<mat-sidenav-container class="container" autosize color="primary">
+  <mat-sidenav #sidenav mode="side" *ngIf="(path !== '/homepage' && path !== '/')" color="primary">
+    <div class="title-filters">
+      <b>Filtros</b>
+    </div>
+    <div class="states">
+      <p>
+        <mat-form-field appearance="outline">
+          <mat-label>Estados</mat-label>
+          <mat-select placeholder="Estados" multiple [(value)]="statesChipList" name="estados" (selectionChange)="addChipsStates($event)">
+            <mat-option *ngFor="let state of statesList" [value]="state?.sigla">
+              {{state?.sigla}} ({{state?.nome}})
+            </mat-option>
+          </mat-select>
+          <mat-icon matSuffix>assistant_photo</mat-icon>
+          <mat-hint>Selecione os estados</mat-hint>
+        </mat-form-field>
+      </p>
+      <p>
+        <mat-chip-list #chipList>
+          <mat-chip *ngFor="let state of statesChipList; let i = index" [selectable]="selectable" [removable]="removable"
+            (removed)="removeStates(i)">
+            {{state}}
+            <mat-icon matChipRemove *ngIf="removable">cancel</mat-icon>
+          </mat-chip>
+        </mat-chip-list>
+      </p>
+    </div>
+    <div class="partido">
+      <p>
+        <mat-form-field appearance="outline">
+          <mat-label>Partidos</mat-label>
+          <mat-select placeholder="Partidos" multiple [(value)]="partidosChipList" name="partidos" (selectionChange)="addChipsPartidos($event)">
+            <mat-option *ngFor="let partido of partidosList" [value]="partido?.sigla">
+              {{partido?.sigla}} ({{partido?.nome}})
+            </mat-option>
+          </mat-select>
+          <mat-icon matSuffix>group_work</mat-icon>
+          <mat-hint>Selecione os partidos</mat-hint>
+        </mat-form-field>
+      </p>
+      <p>
+        <mat-chip-list #chipList2>
+          <mat-chip *ngFor="let partido of partidosChipList; let i = index" [selectable]="selectable" [removable]="removable"
+            (removed)="removePartidos(i)">
+            {{partido}}
+            <mat-icon matChipRemove *ngIf="removable">cancel</mat-icon>
+          </mat-chip>
+        </mat-chip-list>
+      </p>
+    </div>
+    <div class="sexo">
+      <p>
+        <mat-form-field appearance="outline">
+          <mat-label>Sexo</mat-label>
+          <mat-select placeholder="Partidos" multiple [(value)]="sexosChipList" name="sexos" (selectionChange)="addChipsSexos($event)">
+            <mat-option *ngFor="let sexo of sexosList" [value]="sexo?.sigla">
+              {{sexo?.sigla}} ({{sexo?.nome}})
+            </mat-option>
+          </mat-select>
+          <mat-icon matSuffix>wc</mat-icon>
+          <mat-hint>Selecione os sexos</mat-hint>
+        </mat-form-field>
+      </p>
+      <p>
+        <mat-chip-list #chipList2>
+          <mat-chip *ngFor="let sexo of sexosChipList; let i = index" [selectable]="selectable" [removable]="removable"
+            (removed)="removeSexos(i)">
+            {{sexo}}
+            <mat-icon matChipRemove *ngIf="removable">cancel</mat-icon>
+          </mat-chip>
+        </mat-chip-list>
+      </p>
+    </div>
+    <div class="idade">
+      <p class="idades">
+        <mat-form-field appearance="outline" class="de">
+          <mat-label>De</mat-label>
+          <input matInput placeholder="De" [(ngModel)]="idadeFrom">
+          <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+          <mat-hint>Idade De: (em Anos)</mat-hint>
+        </mat-form-field>
+      </p>
+      <p class="idades">
+        <mat-form-field appearance="outline" class="para">
+          <mat-label>Até</mat-label>
+          <input matInput placeholder="Até" [(ngModel)]="idadeTo">
+          <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+          <mat-hint>Idade Até: (em Anos)</mat-hint>
+        </mat-form-field>
+      </p>
+    </div>
+    <div class="mandato">
+      <p class="mandatos">
+        <mat-form-field appearance="outline" class="de">
+          <mat-label>De</mat-label>
+          <input matInput placeholder="De" [(ngModel)]="TMandatoFrom">
+          <mat-icon matSuffix>gavel</mat-icon>
+          <mat-hint>Mandato De: (em Anos)</mat-hint>
+        </mat-form-field>
+      </p>
+      <p class="mandatos">
+        <mat-form-field appearance="outline" class="para">
+          <mat-label>Até</mat-label>
+          <input matInput placeholder="Até" [(ngModel)]="TMandatoTo">
+          <mat-icon matSuffix>gavel</mat-icon>
+          <mat-hint>Mandato Até: (em Anos)</mat-hint>
+        </mat-form-field>
+      </p>
+    </div>
+    <div class="salvar">
+      <p>
+        <button mat-raised-button (click)="saveFilter()" color="primary">
+          Salvar Filtros
+        </button>
+      </p>
+    </div>
   </mat-sidenav>
 
   <mat-sidenav-content>
-    <p><button mat-button (click)="sidenav.toggle()">Toggle</button></p>
-    <router-outlet></router-outlet>
+    <div style="height: 100%; overflow-y: scroll;" infiniteScroll [infiniteScrollDistance]="5" [infiniteScrollThrottle]="50" (scrolled)="deputadosService.scrolled.emit()" [scrollWindow]="false">
+      <router-outlet></router-outlet>
+    </div>
   </mat-sidenav-content>
 </mat-sidenav-container>

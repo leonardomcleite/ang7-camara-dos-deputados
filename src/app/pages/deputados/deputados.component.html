@@ -1,3 +1,40 @@
-<p>
-  deputados works!
-</p>
+<div class="results mat-elevation-z2">
+  <mat-icon class="home" (click)="toggle('filter')">tune</mat-icon>
+  <mat-icon class="home" (click)="toggle('sort')">sort</mat-icon>
+  <div class="divider">|</div>
+  <mat-icon class="home" (click)="clearAnGoToHome()">home</mat-icon>
+  <mat-icon class="arrow">keyboard_arrow_right</mat-icon>
+  <b class="total">Resultados da Pesquisa: </b><span>{{deputados?.length}}</span>
+</div>
+<div class="loader" *ngIf="loading">
+  Carregando... 
+</div>
+<div class="data">
+  <div class="statistics">
+    <statistics [(loading)]="loading"></statistics>
+  </div>
+  <div class="container" *ngIf="!loading">
+    <div *ngFor="let deputado of deputados" class="deputados">
+      <mat-card class="card"> 
+        <mat-card-header>
+          <div mat-card-avatar class="header-image" 
+          [ngStyle]="{ 'background': url(deputado?.ultimoStatus?.siglaPartido)}"></div>
+          <mat-card-title>{{deputado?.ultimoStatus?.nome | titlecase}}</mat-card-title>
+          <mat-card-subtitle>{{deputado?.ultimoStatus?.siglaPartido}}</mat-card-subtitle>
+        </mat-card-header>
+        <div class="zoom">
+          <img mat-card-image [src]="deputado?.ultimoStatus?.urlFoto" [alt]="deputado?.ultimoStatus?.nome">
+        </div>
+        <mat-card-content>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-raised-button (click)="moreDetails(deputado)" color="accent">
+              +Detalhes
+            <!-- <mat-icon class="mat-18">attach_money</mat-icon><span>+Detalhes</span> -->
+          </button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+  </div>
+</div>
+

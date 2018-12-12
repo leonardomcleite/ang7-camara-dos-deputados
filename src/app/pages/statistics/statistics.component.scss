@@ -1,0 +1,36 @@
+.mat-card-content,
+.mat-card-header .mat-card-title,
+.mat-card-subtitle {
+  font-size: 21px;
+}
+
+mat-card-title.mat-card-title {
+  font-size: 24px !important;
+}
+
+.graph {
+  width: 400px;
+}
+
+.graph-card {
+  width: 100%;
+  margin: .5em;
+}
+
+.content {
+  height: calc(calc(100% - 94px) - .5em);
+}
+
+.container {
+  display: flex;
+}
+
+.bar-gradient {
+  background: linear-gradient(to right, maroon 0, #9d2022 7%, #cc372c 14%, #f37633 22%, #f89448 29%, #fcb140 36%, #f0b222 43%, #b8d03f 51%, #aac137 58%, #81913f 65%, #5f7741 72%, #3f8c91 79%, #1b76bc 86%, #2882cb 93%, #51c6e3 100%);
+}
+
+.legend {
+  width: 10px;
+  height: 10px;
+  display: inline-flex;
+}

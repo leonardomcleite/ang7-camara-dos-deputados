@@ -1,0 +1,89 @@
+.home, .arrow, .divider {
+  padding-right: 16px;
+  cursor: pointer;
+  line-height: 60px !important;
+}
+
+.total {
+  line-height: 60px !important;
+}
+
+.card {
+  width: 100%;
+  margin: .5em;
+}
+
+.header-image {
+  background-size: 50px !important;
+  background-position-y: 50% !important;
+}
+
+mat-card-header.mat-card-header {
+  height: 60px;
+}
+
+mat-card-content.mat-card-content {
+  margin-top: 16px;
+}
+
+mat-card-actions {
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 8px !important;
+}
+
+.mat-card-header .mat-card-title {
+  font-size: 1em;
+  word-break: break-word;
+  overflow: hidden;
+}
+
+.mat-card-avatar {
+  height: 50px;
+  width: 50px;
+}
+
+.statistics {
+  margin-top: 60px;
+}
+
+.deputados {
+  display: inline-flex;
+  width: 25%;
+}
+
+.zoom {
+	overflow: hidden;
+  height: 300px;
+}
+
+.zoom img {
+	-moz-transition: all .4s;
+	-webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+mat-card:hover {
+  cursor: pointer;
+  outline: none;
+  img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+
+.mat-card-image:first-child {
+  margin-top: 0px !important;
+}
+
+.results {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  padding-left: 16px;
+  display: inline-flex;
+}

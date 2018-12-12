@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import './theme/app_theme';
+@import './theme/variables';
+
+* {
+  font-family: 'Raleway', sans-serif;
+  outline: none !important;
+}
+
+html, body {
+  font-size: 16px;
+  margin: 0;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}

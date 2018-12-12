@@ -1,0 +1,37 @@
+.title-filters {
+  padding: 10px 10px 0 10px;
+}
+
+.mat-drawer-container {
+  height: 100%;
+}
+
+.states, .partido, .sexo, .idade, .mandato {
+  margin: 0 10px;
+}
+
+.idade, .mandato {
+  display: inline-flex;
+  width: calc(100% - 20px);
+}
+
+.de, .para {
+  width: 90%;
+}
+
+.idades, .mandatos {
+  width: 50%;
+}
+
+.viewport {
+  height: 100%;
+}
+
+.salvar {
+  justify-content: center;
+  display: flex;
+}
+
+mat-sidenav.mat-drawer.mat-sidenav {
+  width: 250px;
+}
