@@ -1,7 +1,14 @@
 <mat-sidenav-container class="container" autosize color="primary">
-  <mat-sidenav #sidenav mode="side" *ngIf="(path !== '/homepage' && path !== '/')" color="primary">
+  <mat-sidenav #filters mode="side" *ngIf="(path !== '/homepage' && path !== '/')" color="primary">
     <div class="title-filters">
       <b>Filtros</b>
+      <div class="salvar">
+        <p>
+          <button mat-raised-button (click)="saveFilter()" color="primary">
+            Salvar Filtros
+          </button>
+        </p>
+      </div>
     </div>
     <div class="states">
       <p>
@@ -108,13 +115,6 @@
         </mat-form-field>
       </p>
     </div>
-    <div class="salvar">
-      <p>
-        <button mat-raised-button (click)="saveFilter()" color="primary">
-          Salvar Filtros
-        </button>
-      </p>
-    </div>
   </mat-sidenav>
 
   <mat-sidenav-content>
@@ -122,4 +122,42 @@
       <router-outlet></router-outlet>
     </div>
   </mat-sidenav-content>
+
+  <mat-sidenav #sorting mode="side" *ngIf="(path !== '/homepage' && path !== '/')" color="primary" position="end">
+    <div class="title-filters">
+      <b>Dados</b>
+      <div class="salvar">
+        <p>
+          <button mat-raised-button (click)="saveClassification()" color="primary">
+            Salvar Classificação
+          </button>
+        </p>
+      </div>
+    </div>
+    <div class="states">
+      <p>
+        <mat-form-field appearance="outline">
+          <mat-label>Classificar por:</mat-label>
+          <mat-select placeholder="Classificado por" [(value)]="sortBy" name="sortBy">
+            <mat-option *ngFor="let class of classifications" [value]="class.value">
+              {{class.name}}
+            </mat-option>
+          </mat-select>
+          <mat-icon matSuffix>sort_by_alpha</mat-icon>
+          <mat-hint>Selecione um tipo</mat-hint>
+        </mat-form-field>
+      </p>
+      <p>
+        <mat-form-field appearance="outline">
+          <mat-label>Ordem:</mat-label>
+          <mat-select placeholder="Classificado por" [(value)]="orderBy" name="ordem">
+            <mat-option value="0">A-Z</mat-option>
+            <mat-option value="1">Z-A</mat-option>
+          </mat-select>
+          <mat-icon matSuffix>sort_by_alpha</mat-icon>
+          <mat-hint>Selecione um tipo</mat-hint>
+        </mat-form-field>
+      </p>
+    </div>
+  </mat-sidenav>
 </mat-sidenav-container>

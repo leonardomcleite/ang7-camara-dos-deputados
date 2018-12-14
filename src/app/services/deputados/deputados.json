@@ -1578,25 +1578,25 @@
   {
     "id": 73434,
     "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/73434",
-    "nomeCivil": "ARNALDO FARIA DE SÁ",
+    "nomeCivil": "ARNALDO FARIA DE SA",
     "ultimoStatus": {
       "id": 73434,
       "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/73434",
-      "nome": "ARNALDO FARIA DE SÁ",
+      "nome": "ARNALDO FARIA DE SA",
       "siglaPartido": "PP",
       "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36809",
       "siglaUf": "SP",
       "idLegislatura": 55,
       "urlFoto": "http://www.camara.leg.br/internet/deputado/bandep/73434.jpg",
       "data": "2015-02-01",
-      "nomeEleitoral": "ARNALDO FARIA DE SÁ",
+      "nomeEleitoral": "ARNALDO FARIA DE SA",
       "gabinete": {
         "nome": "929",
         "predio": "4",
         "sala": "929",
         "andar": "9",
         "telefone": "3215-5929",
-        "email": "dep.ARNALDOFARIADESÁ@camara.leg.br"
+        "email": "dep.ARNALDOFARIADESA@camara.leg.br"
       },
       "situacao": "Exercício",
       "condicaoEleitoral": "Titular",
@@ -1619,21 +1619,21 @@
     "ultimoStatus": {
       "id": 178950,
       "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/178950",
-      "nome": "ANTÔNIO JÁCOME",
+      "nome": "ANTÔNIO JACOME",
       "siglaPartido": "PODE",
       "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36896",
       "siglaUf": "RN",
       "idLegislatura": 55,
       "urlFoto": "http://www.camara.leg.br/internet/deputado/bandep/178950.jpg",
       "data": "2015-02-01",
-      "nomeEleitoral": "ANTÔNIO JÁCOME",
+      "nomeEleitoral": "ANTÔNIO JACOME",
       "gabinete": {
         "nome": "230",
         "predio": "4",
         "sala": "230",
         "andar": "2",
         "telefone": "3215-5230",
-        "email": "dep.ANTÔNIOJÁCOME@camara.leg.br"
+        "email": "dep.ANTÔNIOJACOME@camara.leg.br"
       },
       "situacao": "Exercício",
       "condicaoEleitoral": "Titular",
@@ -1911,25 +1911,25 @@
   {
     "id": 74090,
     "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/74090",
-    "nomeCivil": "ÁTILA SIDNEY LINS ALBUQUERQUE",
+    "nomeCivil": "ATILA SIDNEY LINS ALBUQUERQUE",
     "ultimoStatus": {
       "id": 74090,
       "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/74090",
-      "nome": "ÁTILA LINS",
+      "nome": "ATILA LINS",
       "siglaPartido": "PP",
       "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36809",
       "siglaUf": "AM",
       "idLegislatura": 56,
       "urlFoto": "http://www.camara.leg.br/internet/deputado/bandep/74090.jpg",
       "data": null,
-      "nomeEleitoral": "ÁTILA LINS",
+      "nomeEleitoral": "ATILA LINS",
       "gabinete": {
         "nome": "730",
         "predio": "4",
         "sala": "730",
         "andar": "7",
         "telefone": "3215-5730",
-        "email": "dep.ÁTILALINS@camara.leg.br"
+        "email": "dep.ATILALINS@camara.leg.br"
       },
       "situacao": null,
       "condicaoEleitoral": "Eleito",
@@ -1989,25 +1989,25 @@
   {
     "id": 74459,
     "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/74459",
-    "nomeCivil": "ÁTILA FREITAS LIRA",
+    "nomeCivil": "ATILA FREITAS LIRA",
     "ultimoStatus": {
       "id": 74459,
       "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/74459",
-      "nome": "ÁTILA LIRA",
+      "nome": "ATILA LIRA",
       "siglaPartido": "PSB",
       "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36832",
       "siglaUf": "PI",
       "idLegislatura": 56,
       "urlFoto": "http://www.camara.leg.br/internet/deputado/bandep/74459.jpg",
       "data": null,
-      "nomeEleitoral": "ÁTILA LIRA",
+      "nomeEleitoral": "ATILA LIRA",
       "gabinete": {
         "nome": "640",
         "predio": "4",
         "sala": "640",
         "andar": "6",
         "telefone": "3215-5640",
-        "email": "dep.ÁTILALIRA@camara.leg.br"
+        "email": "dep.ATILALIRA@camara.leg.br"
       },
       "situacao": null,
       "condicaoEleitoral": "Eleito",
@@ -2670,25 +2670,25 @@
   {
     "id": 74650,
     "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/74650",
-    "nomeCivil": "BONIFÁCIO JOSÉ TAMM DE ANDRADA",
+    "nomeCivil": "BONIFACIO JOSÉ TAMM DE ANDRADA",
     "ultimoStatus": {
       "id": 74650,
       "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/74650",
-      "nome": "BONIFÁCIO DE ANDRADA",
+      "nome": "BONIFACIO DE ANDRADA",
       "siglaPartido": "DEM",
       "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36769",
       "siglaUf": "MG",
       "idLegislatura": 55,
       "urlFoto": "http://www.camara.leg.br/internet/deputado/bandep/74650.jpg",
       "data": "2015-02-01",
-      "nomeEleitoral": "BONIFÁCIO DE ANDRADA",
+      "nomeEleitoral": "BONIFACIO DE ANDRADA",
       "gabinete": {
         "nome": "208",
         "predio": "4",
         "sala": "208",
         "andar": "2",
         "telefone": "3215-5208",
-        "email": "dep.BONIFÁCIODEANDRADA@camara.leg.br"
+        "email": "dep.BONIFACIODEANDRADA@camara.leg.br"
       },
       "situacao": "Exercício",
       "condicaoEleitoral": "Titular",
@@ -2933,21 +2933,21 @@
     "ultimoStatus": {
       "id": 93083,
       "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/93083",
-      "nome": "CACÁ LEÃO",
+      "nome": "CACA LEÃO",
       "siglaPartido": "PP",
       "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36809",
       "siglaUf": "BA",
       "idLegislatura": 56,
       "urlFoto": "http://www.camara.leg.br/internet/deputado/bandep/93083.jpg",
       "data": null,
-      "nomeEleitoral": "CACÁ LEÃO",
+      "nomeEleitoral": "CACA LEÃO",
       "gabinete": {
         "nome": "320",
         "predio": "4",
         "sala": "320",
         "andar": "3",
         "telefone": "3215-5320",
-        "email": "dep.CACÁLEÃO@camara.leg.br"
+        "email": "dep.CACALEÃO@camara.leg.br"
       },
       "situacao": null,
       "condicaoEleitoral": "Eleito",
@@ -3046,21 +3046,21 @@
     "ultimoStatus": {
       "id": 178924,
       "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/178924",
-      "nome": "CAPITÃO FÁBIO ABREU",
+      "nome": "CAPITÃO FABIO ABREU",
       "siglaPartido": "PR",
       "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36814",
       "siglaUf": "PI",
       "idLegislatura": 56,
       "urlFoto": "http://www.camara.leg.br/internet/deputado/bandep/178924.jpg",
       "data": null,
-      "nomeEleitoral": "CAPITÃO FÁBIO ABREU",
+      "nomeEleitoral": "CAPITÃO FABIO ABREU",
       "gabinete": {
         "nome": "484",
         "predio": "3",
         "sala": "484",
         "andar": null,
         "telefone": "3215-5484",
-        "email": "dep.CAPITÃOFÁBIOABREU@camara.leg.br"
+        "email": "dep.CAPITÃOFABIOABREU@camara.leg.br"
       },
       "situacao": null,
       "condicaoEleitoral": "Eleito",
@@ -3486,7 +3486,7 @@
   {
     "id": 164360,
     "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/164360",
-    "nomeCivil": "CARMEN EMÍLIA BONFÁ ZANOTTO",
+    "nomeCivil": "CARMEN EMÍLIA BONFA ZANOTTO",
     "ultimoStatus": {
       "id": 164360,
       "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/164360",
@@ -4078,7 +4078,7 @@
   {
     "id": 74537,
     "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/74537",
-    "nomeCivil": "CLÁUDIO CAJADO SAMPAIO",
+    "nomeCivil": "CLAUDIO CAJADO SAMPAIO",
     "ultimoStatus": {
       "id": 74537,
       "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/74537",
@@ -4868,25 +4868,25 @@
   {
     "id": 160758,
     "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/160758",
-    "nomeCivil": "DOMINGOS SÁVIO CAMPOS RESENDE",
+    "nomeCivil": "DOMINGOS SAVIO CAMPOS RESENDE",
     "ultimoStatus": {
       "id": 160758,
       "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/160758",
-      "nome": "DOMINGOS SÁVIO",
+      "nome": "DOMINGOS SAVIO",
       "siglaPartido": "PSDB",
       "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36835",
       "siglaUf": "MG",
       "idLegislatura": 56,
       "urlFoto": "http://www.camara.leg.br/internet/deputado/bandep/160758.jpg",
       "data": null,
-      "nomeEleitoral": "DOMINGOS SÁVIO",
+      "nomeEleitoral": "DOMINGOS SAVIO",
       "gabinete": {
         "nome": "345",
         "predio": "4",
         "sala": "345",
         "andar": "3",
         "telefone": "3215-5345",
-        "email": "dep.DOMINGOSSÁVIO@camara.leg.br"
+        "email": "dep.DOMINGOSSAVIO@camara.leg.br"
       },
       "situacao": null,
       "condicaoEleitoral": "Eleito",
@@ -5628,7 +5628,7 @@
   {
     "id": 160575,
     "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/160575",
-    "nomeCivil": "ÉRIKA JUCÁ KOKAY",
+    "nomeCivil": "ÉRIKA JUCA KOKAY",
     "ultimoStatus": {
       "id": 160575,
       "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/160575",
@@ -6077,25 +6077,25 @@
   {
     "id": 141428,
     "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/141428",
-    "nomeCivil": "FÁBIO SALUSTINO MESQUITA DE FARIA",
+    "nomeCivil": "FABIO SALUSTINO MESQUITA DE FARIA",
     "ultimoStatus": {
       "id": 141428,
       "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/141428",
-      "nome": "FÁBIO FARIA",
+      "nome": "FABIO FARIA",
       "siglaPartido": "PSD",
       "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36834",
       "siglaUf": "RN",
       "idLegislatura": 56,
       "urlFoto": "http://www.camara.leg.br/internet/deputado/bandep/141428.jpg",
       "data": null,
-      "nomeEleitoral": "FÁBIO FARIA",
+      "nomeEleitoral": "FABIO FARIA",
       "gabinete": {
         "nome": "706",
         "predio": "4",
         "sala": "706",
         "andar": "7",
         "telefone": "3215-5706",
-        "email": "dep.FÁBIOFARIA@camara.leg.br"
+        "email": "dep.FABIOFARIA@camara.leg.br"
       },
       "situacao": null,
       "condicaoEleitoral": "Eleito",
@@ -6118,21 +6118,21 @@
     "ultimoStatus": {
       "id": 178969,
       "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/178969",
-      "nome": "FÁBIO MITIDIERI",
+      "nome": "FABIO MITIDIERI",
       "siglaPartido": "PSD",
       "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36834",
       "siglaUf": "SE",
       "idLegislatura": 56,
       "urlFoto": "http://www.camara.leg.br/internet/deputado/bandep/178969.jpg",
       "data": null,
-      "nomeEleitoral": "FÁBIO MITIDIERI",
+      "nomeEleitoral": "FABIO MITIDIERI",
       "gabinete": {
         "nome": "286",
         "predio": "3",
         "sala": "286",
         "andar": null,
         "telefone": "3215-5286",
-        "email": "dep.FÁBIOMITIDIERI@camara.leg.br"
+        "email": "dep.FABIOMITIDIERI@camara.leg.br"
       },
       "situacao": null,
       "condicaoEleitoral": "Eleito",
@@ -6151,25 +6151,25 @@
   {
     "id": 141427,
     "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/141427",
-    "nomeCivil": "FÁBIO AUGUSTO RAMALHO DOS SANTOS",
+    "nomeCivil": "FABIO AUGUSTO RAMALHO DOS SANTOS",
     "ultimoStatus": {
       "id": 141427,
       "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/141427",
-      "nome": "FÁBIO RAMALHO",
+      "nome": "FABIO RAMALHO",
       "siglaPartido": "MDB",
       "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36899",
       "siglaUf": "MG",
       "idLegislatura": 56,
       "urlFoto": "http://www.camara.leg.br/internet/deputado/bandep/141427.jpg",
       "data": null,
-      "nomeEleitoral": "FÁBIO RAMALHO",
+      "nomeEleitoral": "FABIO RAMALHO",
       "gabinete": {
         "nome": "452",
         "predio": "4",
         "sala": "452",
         "andar": "4",
         "telefone": "3215-5452",
-        "email": "dep.FÁBIORAMALHO@camara.leg.br"
+        "email": "dep.FABIORAMALHO@camara.leg.br"
       },
       "situacao": null,
       "condicaoEleitoral": "Eleito",
@@ -6188,25 +6188,25 @@
   {
     "id": 160587,
     "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/160587",
-    "nomeCivil": "FÁBIO RICARDO TRAD",
+    "nomeCivil": "FABIO RICARDO TRAD",
     "ultimoStatus": {
       "id": 160587,
       "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/160587",
-      "nome": "FÁBIO TRAD",
+      "nome": "FABIO TRAD",
       "siglaPartido": "PSD",
       "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36834",
       "siglaUf": "MS",
       "idLegislatura": 56,
       "urlFoto": "http://www.camara.leg.br/internet/deputado/bandep/160587.jpg",
       "data": null,
-      "nomeEleitoral": "FÁBIO TRAD",
+      "nomeEleitoral": "FABIO TRAD",
       "gabinete": {
         "nome": "856",
         "predio": "4",
         "sala": "856",
         "andar": "8",
         "telefone": "3215-5856",
-        "email": "dep.FÁBIOTRAD@camara.leg.br"
+        "email": "dep.FABIOTRAD@camara.leg.br"
       },
       "situacao": null,
       "condicaoEleitoral": "Eleito",
@@ -6266,21 +6266,21 @@
     "ultimoStatus": {
       "id": 178877,
       "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/178877",
-      "nome": "FÁBIO SOUSA",
+      "nome": "FABIO SOUSA",
       "siglaPartido": "PSDB",
       "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36835",
       "siglaUf": "GO",
       "idLegislatura": 55,
       "urlFoto": "http://www.camara.leg.br/internet/deputado/bandep/178877.jpg",
       "data": "2015-02-01",
-      "nomeEleitoral": "FÁBIO SOUSA",
+      "nomeEleitoral": "FABIO SOUSA",
       "gabinete": {
         "nome": "271",
         "predio": "3",
         "sala": "271",
         "andar": null,
         "telefone": "3215-5271",
-        "email": "dep.FÁBIOSOUSA@camara.leg.br"
+        "email": "dep.FABIOSOUSA@camara.leg.br"
       },
       "situacao": "Exercício",
       "condicaoEleitoral": "Titular",
@@ -6558,7 +6558,7 @@
   {
     "id": 141434,
     "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/141434",
-    "nomeCivil": "FLAVIANO FLÁVIO BAPTISTA DE MELO",
+    "nomeCivil": "FLAVIANO FLAVIO BAPTISTA DE MELO",
     "ultimoStatus": {
       "id": 141434,
       "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/141434",
@@ -6598,25 +6598,25 @@
   {
     "id": 160598,
     "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/160598",
-    "nomeCivil": "FLÁVIA CARREIRO ALBUQUERQUE MORAIS",
+    "nomeCivil": "FLAVIA CARREIRO ALBUQUERQUE MORAIS",
     "ultimoStatus": {
       "id": 160598,
       "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/160598",
-      "nome": "FLÁVIA MORAIS",
+      "nome": "FLAVIA MORAIS",
       "siglaPartido": "PDT",
       "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36786",
       "siglaUf": "GO",
       "idLegislatura": 56,
       "urlFoto": "http://www.camara.leg.br/internet/deputado/bandep/160598.jpg",
       "data": null,
-      "nomeEleitoral": "FLÁVIA MORAIS",
+      "nomeEleitoral": "FLAVIA MORAIS",
       "gabinete": {
         "nome": "738",
         "predio": "4",
         "sala": "738",
         "andar": "7",
         "telefone": "3215-5738",
-        "email": "dep.FLÁVIAMORAIS@camara.leg.br"
+        "email": "dep.FLAVIAMORAIS@camara.leg.br"
       },
       "situacao": null,
       "condicaoEleitoral": "Eleito",
@@ -6945,21 +6945,21 @@
     "ultimoStatus": {
       "id": 178966,
       "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/178966",
-      "nome": "GEOVANIA DE SÁ",
+      "nome": "GEOVANIA DE SA",
       "siglaPartido": "PSDB",
       "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36835",
       "siglaUf": "SC",
       "idLegislatura": 56,
       "urlFoto": "http://www.camara.leg.br/internet/deputado/bandep/178966.jpg",
       "data": null,
-      "nomeEleitoral": "GEOVANIA DE SÁ",
+      "nomeEleitoral": "GEOVANIA DE SA",
       "gabinete": {
         "nome": "606",
         "predio": "4",
         "sala": "606",
         "andar": "6",
         "telefone": "3215-5606",
-        "email": "dep.GEOVANIADESÁ@camara.leg.br"
+        "email": "dep.GEOVANIADESA@camara.leg.br"
       },
       "situacao": null,
       "condicaoEleitoral": "Eleito",
@@ -7126,7 +7126,7 @@
   {
     "id": 74558,
     "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/74558",
-    "nomeCivil": "GIVALDO DE SÁ GOUVEIA",
+    "nomeCivil": "GIVALDO DE SA GOUVEIA",
     "ultimoStatus": {
       "id": 74558,
       "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/74558",
@@ -8028,25 +8028,25 @@
   {
     "id": 97707,
     "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/97707",
-    "nomeCivil": "HERÁCLITO DE SOUSA FORTES",
+    "nomeCivil": "HERACLITO DE SOUSA FORTES",
     "ultimoStatus": {
       "id": 97707,
       "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/97707",
-      "nome": "HERÁCLITO FORTES",
+      "nome": "HERACLITO FORTES",
       "siglaPartido": "DEM",
       "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36769",
       "siglaUf": "PI",
       "idLegislatura": 55,
       "urlFoto": "http://www.camara.leg.br/internet/deputado/bandep/97707.jpg",
       "data": "2015-02-01",
-      "nomeEleitoral": "HERÁCLITO FORTES",
+      "nomeEleitoral": "HERACLITO FORTES",
       "gabinete": {
         "nome": "708",
         "predio": "4",
         "sala": "708",
         "andar": "7",
         "telefone": "3215-5708",
-        "email": "dep.HERÁCLITOFORTES@camara.leg.br"
+        "email": "dep.HERACLITOFORTES@camara.leg.br"
       },
       "situacao": "Exercício",
       "condicaoEleitoral": "Titular",
@@ -9443,25 +9443,25 @@
   {
     "id": 74395,
     "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/74395",
-    "nomeCivil": "JOSÉ OTÁVIO GERMANO",
+    "nomeCivil": "JOSÉ OTAVIO GERMANO",
     "ultimoStatus": {
       "id": 74395,
       "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/74395",
-      "nome": "JOSÉ OTÁVIO GERMANO",
+      "nome": "JOSÉ OTAVIO GERMANO",
       "siglaPartido": "PP",
       "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36809",
       "siglaUf": "RS",
       "idLegislatura": 55,
       "urlFoto": "http://www.camara.leg.br/internet/deputado/bandep/74395.jpg",
       "data": "2015-02-01",
-      "nomeEleitoral": "JOSÉ OTÁVIO GERMANO",
+      "nomeEleitoral": "JOSÉ OTAVIO GERMANO",
       "gabinete": {
         "nome": "517",
         "predio": "4",
         "sala": "517",
         "andar": "5",
         "telefone": "3215-5517",
-        "email": "dep.JOSÉOTÁVIOGERMANO@camara.leg.br"
+        "email": "dep.JOSÉOTAVIOGERMANO@camara.leg.br"
       },
       "situacao": "Exercício",
       "condicaoEleitoral": "Titular",
@@ -10340,25 +10340,25 @@
   {
     "id": 141480,
     "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/141480",
-    "nomeCivil": "LÁZARO BOTELHO MARTINS",
+    "nomeCivil": "LAZARO BOTELHO MARTINS",
     "ultimoStatus": {
       "id": 141480,
       "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/141480",
-      "nome": "LÁZARO BOTELHO",
+      "nome": "LAZARO BOTELHO",
       "siglaPartido": "PP",
       "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36809",
       "siglaUf": "TO",
       "idLegislatura": 55,
       "urlFoto": "http://www.camara.leg.br/internet/deputado/bandep/141480.jpg",
       "data": "2015-02-01",
-      "nomeEleitoral": "LÁZARO BOTELHO",
+      "nomeEleitoral": "LAZARO BOTELHO",
       "gabinete": {
         "nome": "478",
         "predio": "3",
         "sala": "478",
         "andar": null,
         "telefone": "3215-5478",
-        "email": "dep.LÁZAROBOTELHO@camara.leg.br"
+        "email": "dep.LAZAROBOTELHO@camara.leg.br"
       },
       "situacao": "Exercício",
       "condicaoEleitoral": "Titular",
@@ -11273,21 +11273,21 @@
     "ultimoStatus": {
       "id": 178955,
       "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/178955",
-      "nome": "LUIZ CLÁUDIO",
+      "nome": "LUIZ CLAUDIO",
       "siglaPartido": "PR",
       "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36814",
       "siglaUf": "RO",
       "idLegislatura": 55,
       "urlFoto": "http://www.camara.leg.br/internet/deputado/bandep/178955.jpg",
       "data": "2015-02-01",
-      "nomeEleitoral": "LUIZ CLÁUDIO",
+      "nomeEleitoral": "LUIZ CLAUDIO",
       "gabinete": {
         "nome": "643",
         "predio": "4",
         "sala": "643",
         "andar": "6",
         "telefone": "3215-5643",
-        "email": "dep.LUIZCLÁUDIO@camara.leg.br"
+        "email": "dep.LUIZCLAUDIO@camara.leg.br"
       },
       "situacao": "Exercício",
       "condicaoEleitoral": "Titular",
@@ -11797,21 +11797,21 @@
     "ultimoStatus": {
       "id": 179000,
       "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/179000",
-      "nome": "MARCELO ÁLVARO ANTÔNIO",
+      "nome": "MARCELO ALVARO ANTÔNIO",
       "siglaPartido": "PSL",
       "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36837",
       "siglaUf": "MG",
       "idLegislatura": 56,
       "urlFoto": "http://www.camara.leg.br/internet/deputado/bandep/179000.jpg",
       "data": null,
-      "nomeEleitoral": "MARCELO ÁLVARO ANTÔNIO",
+      "nomeEleitoral": "MARCELO ALVARO ANTÔNIO",
       "gabinete": {
         "nome": "824",
         "predio": "4",
         "sala": "824",
         "andar": "8",
         "telefone": "3215-5824",
-        "email": "dep.MARCELOÁLVAROANTÔNIO@camara.leg.br"
+        "email": "dep.MARCELOALVAROANTÔNIO@camara.leg.br"
       },
       "situacao": null,
       "condicaoEleitoral": "Eleito",
@@ -11985,21 +11985,21 @@
     "ultimoStatus": {
       "id": 179001,
       "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/179001",
-      "nome": "MÁRCIO BIOLCHI",
+      "nome": "MARCIO BIOLCHI",
       "siglaPartido": "MDB",
       "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36899",
       "siglaUf": "RS",
       "idLegislatura": 56,
       "urlFoto": "http://www.camara.leg.br/internet/deputado/bandep/179001.jpg",
       "data": null,
-      "nomeEleitoral": "MÁRCIO BIOLCHI",
+      "nomeEleitoral": "MARCIO BIOLCHI",
       "gabinete": {
         "nome": "843",
         "predio": "4",
         "sala": "843",
         "andar": "8",
         "telefone": "3215-5843",
-        "email": "dep.MÁRCIOBIOLCHI@camara.leg.br"
+        "email": "dep.MARCIOBIOLCHI@camara.leg.br"
       },
       "situacao": null,
       "condicaoEleitoral": "Eleito",
@@ -12055,25 +12055,25 @@
   {
     "id": 150418,
     "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/150418",
-    "nomeCivil": "MÁRCIO CARLOS MARINHO",
+    "nomeCivil": "MARCIO CARLOS MARINHO",
     "ultimoStatus": {
       "id": 150418,
       "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/150418",
-      "nome": "MÁRCIO MARINHO",
+      "nome": "MARCIO MARINHO",
       "siglaPartido": "PRB",
       "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36815",
       "siglaUf": "BA",
       "idLegislatura": 56,
       "urlFoto": "http://www.camara.leg.br/internet/deputado/bandep/150418.jpg",
       "data": null,
-      "nomeEleitoral": "MÁRCIO MARINHO",
+      "nomeEleitoral": "MARCIO MARINHO",
       "gabinete": {
         "nome": "326",
         "predio": "4",
         "sala": "326",
         "andar": "3",
         "telefone": "3215-5326",
-        "email": "dep.MÁRCIOMARINHO@camara.leg.br"
+        "email": "dep.MARCIOMARINHO@camara.leg.br"
       },
       "situacao": null,
       "condicaoEleitoral": "Eleito",
@@ -12595,25 +12595,25 @@
   {
     "id": 74398,
     "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/74398",
-    "nomeCivil": "MARIA DO ROSÁRIO NUNES",
+    "nomeCivil": "MARIA DO ROSARIO NUNES",
     "ultimoStatus": {
       "id": 74398,
       "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/74398",
-      "nome": "MARIA DO ROSÁRIO",
+      "nome": "MARIA DO ROSARIO",
       "siglaPartido": "PT",
       "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36844",
       "siglaUf": "RS",
       "idLegislatura": 56,
       "urlFoto": "http://www.camara.leg.br/internet/deputado/bandep/74398.jpg",
       "data": null,
-      "nomeEleitoral": "MARIA DO ROSÁRIO",
+      "nomeEleitoral": "MARIA DO ROSARIO",
       "gabinete": {
         "nome": "312",
         "predio": "4",
         "sala": "312",
         "andar": "3",
         "telefone": "3215-5312",
-        "email": "dep.MARIADOROSÁRIO@camara.leg.br"
+        "email": "dep.MARIADOROSARIO@camara.leg.br"
       },
       "situacao": null,
       "condicaoEleitoral": "Eleito",
@@ -12786,21 +12786,21 @@
     "ultimoStatus": {
       "id": 178858,
       "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/178858",
-      "nome": "MÁRIO NEGROMONTE JR.",
+      "nome": "MARIO NEGROMONTE JR.",
       "siglaPartido": "PP",
       "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36809",
       "siglaUf": "BA",
       "idLegislatura": 56,
       "urlFoto": "http://www.camara.leg.br/internet/deputado/bandep/178858.jpg",
       "data": null,
-      "nomeEleitoral": "MÁRIO NEGROMONTE JR.",
+      "nomeEleitoral": "MARIO NEGROMONTE JR.",
       "gabinete": {
         "nome": "424",
         "predio": "4",
         "sala": "424",
         "andar": "4",
         "telefone": "3215-5424",
-        "email": "dep.MÁRIONEGROMONTEJR.@camara.leg.br"
+        "email": "dep.MARIONEGROMONTEJR.@camara.leg.br"
       },
       "situacao": null,
       "condicaoEleitoral": "Eleito",
@@ -12819,25 +12819,25 @@
   {
     "id": 74158,
     "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/74158",
-    "nomeCivil": "MÁRIO LÚCIO HERINGER",
+    "nomeCivil": "MARIO LÚCIO HERINGER",
     "ultimoStatus": {
       "id": 74158,
       "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/74158",
-      "nome": "MÁRIO HERINGER",
+      "nome": "MARIO HERINGER",
       "siglaPartido": "PDT",
       "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36786",
       "siglaUf": "MG",
       "idLegislatura": 56,
       "urlFoto": "http://www.camara.leg.br/internet/deputado/bandep/74158.jpg",
       "data": null,
-      "nomeEleitoral": "MÁRIO HERINGER",
+      "nomeEleitoral": "MARIO HERINGER",
       "gabinete": {
         "nome": "211",
         "predio": "4",
         "sala": "211",
         "andar": "2",
         "telefone": "3215-5211",
-        "email": "dep.MÁRIOHERINGER@camara.leg.br"
+        "email": "dep.MARIOHERINGER@camara.leg.br"
       },
       "situacao": null,
       "condicaoEleitoral": "Eleito",
@@ -14165,21 +14165,21 @@
     "ultimoStatus": {
       "id": 160561,
       "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/160561",
-      "nome": "MISSIONÁRIO JOSÉ OLIMPIO",
+      "nome": "MISSIONARIO JOSÉ OLIMPIO",
       "siglaPartido": "DEM",
       "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36769",
       "siglaUf": "SP",
       "idLegislatura": 55,
       "urlFoto": "http://www.camara.leg.br/internet/deputado/bandep/160561.jpg",
       "data": "2015-02-01",
-      "nomeEleitoral": "MISSIONÁRIO JOSÉ OLIMPIO",
+      "nomeEleitoral": "MISSIONARIO JOSÉ OLIMPIO",
       "gabinete": {
         "nome": "507",
         "predio": "4",
         "sala": "507",
         "andar": "5",
         "telefone": "3215-5507",
-        "email": "dep.MISSIONÁRIOJOSÉOLIMPIO@camara.leg.br"
+        "email": "dep.MISSIONARIOJOSÉOLIMPIO@camara.leg.br"
       },
       "situacao": "Exercício",
       "condicaoEleitoral": "Titular",
@@ -14451,7 +14451,7 @@
     "dataNascimento": "1961-05-06",
     "dataFalecimento": null,
     "ufNascimento": "SP",
-    "municipioNascimento": "Águas da Prata",
+    "municipioNascimento": "Aguas da Prata",
     "escolaridade": "Mestrado"
   },
   {
@@ -15164,7 +15164,7 @@
   {
     "id": 74161,
     "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/74161",
-    "nomeCivil": "REGINALDO LÁZARO DE OLIVEIRA LOPES",
+    "nomeCivil": "REGINALDO LAZARO DE OLIVEIRA LOPES",
     "ultimoStatus": {
       "id": 74161,
       "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/74161",
@@ -15849,7 +15849,7 @@
   {
     "id": 74693,
     "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/74693",
-    "nomeCivil": "RODRIGO FELINTO IBARRA EPITÁCIO MAIA",
+    "nomeCivil": "RODRIGO FELINTO IBARRA EPITACIO MAIA",
     "ultimoStatus": {
       "id": 74693,
       "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/74693",
@@ -16448,25 +16448,25 @@
   {
     "id": 160630,
     "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/160630",
-    "nomeCivil": "SÁGUAS MORAES SOUSA",
+    "nomeCivil": "SAGUAS MORAES SOUSA",
     "ultimoStatus": {
       "id": 160630,
       "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/160630",
-      "nome": "SÁGUAS MORAES",
+      "nome": "SAGUAS MORAES",
       "siglaPartido": "PT",
       "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36844",
       "siglaUf": "MT",
       "idLegislatura": 55,
       "urlFoto": "http://www.camara.leg.br/internet/deputado/bandep/160630.jpg",
       "data": "2015-02-01",
-      "nomeEleitoral": "SÁGUAS MORAES",
+      "nomeEleitoral": "SAGUAS MORAES",
       "gabinete": {
         "nome": "371",
         "predio": "3",
         "sala": "371",
         "andar": null,
         "telefone": "3215-5371",
-        "email": "dep.SÁGUASMORAES@camara.leg.br"
+        "email": "dep.SAGUASMORAES@camara.leg.br"
       },
       "situacao": "Exercício",
       "condicaoEleitoral": "Titular",
@@ -16935,25 +16935,25 @@
   {
     "id": 160613,
     "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/160613",
-    "nomeCivil": "SEBASTIÃO SIBÁ MACHADO OLIVEIRA",
+    "nomeCivil": "SEBASTIÃO SIBA MACHADO OLIVEIRA",
     "ultimoStatus": {
       "id": 160613,
       "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/160613",
-      "nome": "SIBÁ MACHADO",
+      "nome": "SIBA MACHADO",
       "siglaPartido": "PT",
       "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36844",
       "siglaUf": "AC",
       "idLegislatura": 55,
       "urlFoto": "http://www.camara.leg.br/internet/deputado/bandep/160613.jpg",
       "data": "2018-04-04",
-      "nomeEleitoral": "SIBÁ MACHADO",
+      "nomeEleitoral": "SIBA MACHADO",
       "gabinete": {
         "nome": "421",
         "predio": "4",
         "sala": "421",
         "andar": "4",
         "telefone": "3215-5421",
-        "email": "dep.SIBÁMACHADO@camara.leg.br"
+        "email": "dep.SIBAMACHADO@camara.leg.br"
       },
       "situacao": "Exercício",
       "condicaoEleitoral": "Titular",

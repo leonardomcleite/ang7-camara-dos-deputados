@@ -48,7 +48,7 @@ $app-green: (
   600: #43a047,
   700: #388e3c,
   800: #2e7d32,
-  900: #1b5e20,
+  900: #366823,
   A100: #b9f6ca,
   A200: #69f0ae,
   A400: #00e676,
@@ -105,7 +105,7 @@ $app-red: (
 );
 
 $custom-app-primary: mat-palette($app-blue);
-$custom-app-accent:  mat-palette($app-green, A200, A100, A400);
+$custom-app-accent:  mat-palette($app-green, 900, A100, A400);
 $custom-app-warn:    mat-palette($app-red);
 
 $custom-app-theme: mat-light-theme($custom-app-primary, $custom-app-accent, $custom-app-warn);
@@ -153,6 +153,6 @@ $custom-app-theme: mat-light-theme($custom-app-primary, $custom-app-accent, $cus
   fill: #5a95ce;
 }
 
-.results {
-  background-color: #fff;
-}
+// .results {
+//   background-color: #fff;
+// }

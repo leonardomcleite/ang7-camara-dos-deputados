@@ -1,11 +1,11 @@
-<div class="results mat-elevation-z2">
+<mat-toolbar class="results" color="primary">
   <mat-icon class="home" (click)="toggle('filter')">tune</mat-icon>
-  <mat-icon class="home" (click)="toggle('sort')">sort</mat-icon>
+  <mat-icon class="home" (click)="toggle('sort')">sort_by_alpha</mat-icon>
   <div class="divider">|</div>
   <mat-icon class="home" (click)="clearAnGoToHome()">home</mat-icon>
   <mat-icon class="arrow">keyboard_arrow_right</mat-icon>
   <b class="total">Resultados da Pesquisa: </b><span>{{deputados?.length}}</span>
-</div>
+</mat-toolbar>
 <div class="loader" *ngIf="loading">
   Carregando... 
 </div>

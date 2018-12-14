@@ -1,3 +1,12 @@
+@media only screen and (min-width: 805px) {
+  .graph-card {
+    width: calc(50% - 48px) !important;
+  }
+  .container {
+    display: inline-flex !important;
+  }
+}
+
 .mat-card-content,
 .mat-card-header .mat-card-title,
 .mat-card-subtitle {
@@ -13,16 +22,17 @@ mat-card-title.mat-card-title {
 }
 
 .graph-card {
-  width: 100%;
+  width: calc(100% - 48px);
   margin: .5em;
 }
 
 .content {
-  height: calc(calc(100% - 94px) - .5em);
+  // height: calc(calc(100% - 94px) - 10px);
 }
 
 .container {
-  display: flex;
+  display: block;
+  width: 100%;
 }
 
 .bar-gradient {

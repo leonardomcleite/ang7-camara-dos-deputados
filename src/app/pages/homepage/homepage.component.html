@@ -1,4 +1,11 @@
-<div class="title">
-  <h1>Selecione um Estado Para Começar</h1>
+<div class="homepage">
+  <div class="header">
+    <h1 class="title"> Uma Plataforma de Transparência e Participação Social </h1>
+  </div>
+  <mat-card class="card">
+    <div class="title-card">
+      <h1>Selecione um Estado Para Começar</h1>
+    </div>
+    <mapa-do-brasil (clickState)="navigateTo($event)"></mapa-do-brasil>
+  </mat-card>
 </div>
-<mapa-do-brasil (clickState)="navigateTo($event)"></mapa-do-brasil>

@@ -1,6 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
 import { DeputadosService } from './services/deputados/deputados.service';
-import { ActivatedRoute, Params, Router, NavigationEnd } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -8,6 +8,16 @@ import { ActivatedRoute, Params, Router, NavigationEnd } from '@angular/router';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
+
+
+  @ViewChild('filters') filters: any;
+  @ViewChild('sorting') sorting: any;
+
+  classifications = [
+    {name: 'Nome dos Deputados', value: 'name'},
+    {name: 'Estado', value: 'siglaUF'},
+    {name: 'Partido', value: 'siglaPartido'}
+  ];
 
   statesList: string[] = [];
   statesChipList: string[] = [];
@@ -27,6 +37,8 @@ export class AppComponent implements OnInit {
   selectable = true;
   removable = true;
   path: any;
+  sortBy: any;
+  orderBy: number;
 
   constructor(
     public deputadosService: DeputadosService,
@@ -45,11 +57,21 @@ export class AppComponent implements OnInit {
       this.idadeTo = this.deputadosService.getIdade() ? this.deputadosService.getIdade().to : undefined;
       this.TMandatoFrom = this.deputadosService.getTMandato() ? this.deputadosService.getTMandato().from : undefined;
       this.TMandatoTo = this.deputadosService.getTMandato() ? this.deputadosService.getTMandato().to : undefined;
+      this.sortBy = this.deputadosService.getSortBy();
+      this.orderBy = this.deputadosService.getOrderBy();
     });
     this.router.events.subscribe((event: any) => {
       if (event.url !== undefined) {
         this.path = event.url;
       }
+    });
+    this.deputadosService.toggleSortBy.subscribe(() => {
+      this.sorting.toggle();
+      this.filters.close();
+    });
+    this.deputadosService.toggleFilters.subscribe(() => {
+      this.filters.toggle();
+      this.sorting.close();
     });
   }
 
@@ -101,6 +123,12 @@ export class AppComponent implements OnInit {
     this.deputadosService.setSiglaSexo(this.sexosChipList);
     this.deputadosService.setIdade(this.idadeFrom, this.idadeTo);
     this.deputadosService.setTMandato(this.TMandatoFrom, this.TMandatoTo);
+    this.deputadosService.filter.emit();
+  }
+
+  saveClassification() {
+    this.deputadosService.setSortBy(this.sortBy);
+    this.deputadosService.setOrderBy(this.orderBy);
     this.deputadosService.filter.emit();
   }
 }

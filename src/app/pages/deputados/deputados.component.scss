@@ -1,7 +1,6 @@
 .home, .arrow, .divider {
   padding-right: 16px;
   cursor: pointer;
-  line-height: 60px !important;
 }
 
 .total {
@@ -51,6 +50,8 @@ mat-card-actions {
 .deputados {
   display: inline-flex;
   width: 25%;
+  max-width: 272.5px;
+  min-width: 200px;
 }
 
 .zoom {

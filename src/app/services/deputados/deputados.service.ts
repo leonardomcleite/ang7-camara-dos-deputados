@@ -13,6 +13,8 @@ export class DeputadosService implements OnInit {
 
   @Output() filter: EventEmitter<string[]> = new EventEmitter();
   @Output() scrolled: EventEmitter<any> = new EventEmitter;
+  @Output() toggleSortBy: EventEmitter<any> = new EventEmitter;
+  @Output() toggleFilters: EventEmitter<any> = new EventEmitter;
 
   states: string[] = [];
   partidos: string[] = [];
@@ -21,6 +23,8 @@ export class DeputadosService implements OnInit {
   tMandato: any;
   idade: any;
   loading: boolean;
+  sortBy: string;
+  orderBy: number;
 
   constructor(
     public httpClient: HttpClient
@@ -166,6 +170,22 @@ export class DeputadosService implements OnInit {
 
   getIdade(): any {
     return this.idade;
+  }
+
+  setSortBy(sortBy: string) {
+    this.sortBy = sortBy;
+  }
+
+  getSortBy(): string {
+    return this.sortBy;
+  }
+
+  setOrderBy(orderBy: number) {
+    this.orderBy = orderBy;
+  }
+
+  getOrderBy(): number {
+    return this.orderBy;
   }
 
   calculateAge(dobString) {

@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { HomepageRoutingModule } from './homepage-routing.module';
 import { HomepageComponent } from './homepage.component';
 import { MapaDoBrasilModule } from 'src/app/components/mapa-do-brasil/mapa-do-brasil.module';
+import { MatCardModule } from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { MapaDoBrasilModule } from 'src/app/components/mapa-do-brasil/mapa-do-br
     CommonModule,
     HomepageRoutingModule,
 
-    MapaDoBrasilModule
+    MapaDoBrasilModule,
+    MatCardModule
   ]
 })
 export class HomepageModule { }

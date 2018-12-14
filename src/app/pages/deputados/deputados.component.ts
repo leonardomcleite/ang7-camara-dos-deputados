@@ -14,11 +14,13 @@ export class DeputadosComponent implements OnInit {
   states: string[] = [];
   partidos: string[] = [];
   deputados: any[] = [];
+  sortBy = '';
   sexo: string[] = [];
   image: string;
   page = 1;
   tMandato: any;
   idade: any;
+  orderBy: any = 0;
 
   @Input() get loading(): boolean {return this._loading; }
   @Output() loadingChange: EventEmitter<boolean> = new EventEmitter();
@@ -44,6 +46,8 @@ export class DeputadosComponent implements OnInit {
       this.sexo = this.deputadosService.getSiglaSexo();
       this.tMandato = this.deputadosService.getTMandato();
       this.idade = this.deputadosService.getIdade();
+      this.sortBy = this.deputadosService.getSortBy();
+      this.orderBy = this.deputadosService.getOrderBy();
       this.deputados = [];
       this.page = 1;
       this.findDeputadosByUf();
@@ -65,6 +69,28 @@ export class DeputadosComponent implements OnInit {
       this.states, this.partidos, this.sexo, this.tMandato, this.idade, this.page
     );
     this.removeDuplicates(this.deputados);
+    switch (this.sortBy) {
+      case 'siglaPartido':
+        if (this.orderBy === 0) {
+          this.deputados.sort((a, b) => (a.ultimoStatus.siglaPartido > b.ultimoStatus.siglaPartido) ? 1 : ((b.ultimoStatus.siglaPartido > a.ultimoStatus.siglaPartido) ? -1 : 0));
+        } else {
+          this.deputados.sort((b, a) => (a.ultimoStatus.siglaPartido > b.ultimoStatus.siglaPartido) ? 1 : ((b.ultimoStatus.siglaPartido > a.ultimoStatus.siglaPartido) ? -1 : 0));
+        }
+        break;
+      case 'siglaUf':
+        if (this.orderBy === 0) {
+          this.deputados.sort((a,b) => (a.ultimoStatus.siglaUf > b.ultimoStatus.siglaUf) ? 1 : ((b.ultimoStatus.siglaUf > a.ultimoStatus.siglaUf) ? -1 : 0));
+        } else {
+          this.deputados.sort((b,a) => (a.ultimoStatus.siglaUf > b.ultimoStatus.siglaUf) ? 1 : ((b.ultimoStatus.siglaUf > a.ultimoStatus.siglaUf) ? -1 : 0));
+        }
+        break;
+      default:
+        if (this.orderBy === 0) {
+          this.deputados.sort((a,b) => (a.ultimoStatus.nome > b.ultimoStatus.nome) ? 1 : ((b.ultimoStatus.nome > a.ultimoStatus.nome) ? -1 : 0));
+        } else {
+          this.deputados.sort((b,a) => (a.ultimoStatus.nome > b.ultimoStatus.nome) ? 1 : ((b.ultimoStatus.nome > a.ultimoStatus.nome) ? -1 : 0));
+        }
+    }
     this.deputadosService.setDeputados(this.deputados);
   }
 
@@ -92,7 +118,7 @@ export class DeputadosComponent implements OnInit {
   }
 
   moreDetails(deputado: any) {
-    
+
   }
 
   clearAnGoToHome() {
@@ -109,6 +135,17 @@ export class DeputadosComponent implements OnInit {
     this.deputados = [];
     this.page = 1;
     this.router.navigate(['/']);
+  }
+
+  toggle(type) {
+    switch (type) {
+      case 'filter':
+        this.deputadosService.toggleFilters.emit();
+        break;
+      case 'sort':
+        this.deputadosService.toggleSortBy.emit();
+        break;
+    }
   }
 
 }
