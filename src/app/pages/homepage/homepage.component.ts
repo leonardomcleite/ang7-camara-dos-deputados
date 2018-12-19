@@ -14,23 +14,6 @@ export class HomepageComponent {
     public deputadosService: DeputadosService
   ) { }
 
-  // tslint:disable-next-line:use-life-cycle-interface
-  ngOnInit(): void {
-    document.getElementById('tres').addEventListener('click', function (event) {
-      console.log('#tres clicado');
-      event.stopPropagation();
-    });
-
-    document.getElementById('dois').addEventListener('click', function (event) {
-      console.log('#dois clicado');
-      event.stopPropagation();
-    });
-
-    document.getElementById('um').addEventListener('click', function (event) {
-      console.log('#um clicado');
-    });
-  }
-
   navigateTo(uf: string) {
     const state = [uf];
     this.deputadosService.setSiglaUf(state);
@@ -42,6 +25,5 @@ export class HomepageComponent {
     console.log(n);
   }
 
-  
 }
 

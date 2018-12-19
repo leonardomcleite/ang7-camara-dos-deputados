@@ -22,9 +22,23 @@
     text-align: center;
 }
 
+.card-mapa {
+    height: 100%;
+    justify-content: center;
+    flex: auto;
+    flex-direction: column;
+    display: block;
+}
+
 .card {
-    margin: 0 6em 3em 6em;
-    top: 40px;
+    // margin: 0 6em 3em 6em;
+    // top: 40px;
+    // border-radius: 25px;
+    // box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    margin: 0 10em 3em 10em;
     border-radius: 25px;
     box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    opacity: .94;
+    top: 90px;
+    max-height: 580px;
 }

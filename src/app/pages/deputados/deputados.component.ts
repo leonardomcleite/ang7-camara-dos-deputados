@@ -1,7 +1,9 @@
-import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { MatDialog } from '@angular/material';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Subscription } from 'rxjs';
 import { DeputadosService } from '../../services/deputados/deputados.service';
+import { ExpensesDialogComponent } from './expenses-dialog/expenses-dialog/expenses-dialog.component';
 
 @Component({
   selector: 'app-deputados',
@@ -20,7 +22,7 @@ export class DeputadosComponent implements OnInit {
   page = 1;
   tMandato: any;
   idade: any;
-  orderBy: any = 0;
+  orderBy: any = '0';
 
   @Input() get loading(): boolean {return this._loading; }
   @Output() loadingChange: EventEmitter<boolean> = new EventEmitter();
@@ -34,6 +36,7 @@ export class DeputadosComponent implements OnInit {
     public activatedRoute: ActivatedRoute,
     public deputadosService: DeputadosService,
     public router: Router,
+    public dialog: MatDialog
   ) { }
 
   ngOnInit() {
@@ -71,21 +74,21 @@ export class DeputadosComponent implements OnInit {
     this.removeDuplicates(this.deputados);
     switch (this.sortBy) {
       case 'siglaPartido':
-        if (this.orderBy === 0) {
+        if (this.orderBy === '0') {
           this.deputados.sort((a, b) => (a.ultimoStatus.siglaPartido > b.ultimoStatus.siglaPartido) ? 1 : ((b.ultimoStatus.siglaPartido > a.ultimoStatus.siglaPartido) ? -1 : 0));
         } else {
           this.deputados.sort((b, a) => (a.ultimoStatus.siglaPartido > b.ultimoStatus.siglaPartido) ? 1 : ((b.ultimoStatus.siglaPartido > a.ultimoStatus.siglaPartido) ? -1 : 0));
         }
         break;
       case 'siglaUf':
-        if (this.orderBy === 0) {
+        if (this.orderBy === '0') {
           this.deputados.sort((a,b) => (a.ultimoStatus.siglaUf > b.ultimoStatus.siglaUf) ? 1 : ((b.ultimoStatus.siglaUf > a.ultimoStatus.siglaUf) ? -1 : 0));
         } else {
           this.deputados.sort((b,a) => (a.ultimoStatus.siglaUf > b.ultimoStatus.siglaUf) ? 1 : ((b.ultimoStatus.siglaUf > a.ultimoStatus.siglaUf) ? -1 : 0));
         }
         break;
       default:
-        if (this.orderBy === 0) {
+        if (this.orderBy === '0') {
           this.deputados.sort((a,b) => (a.ultimoStatus.nome > b.ultimoStatus.nome) ? 1 : ((b.ultimoStatus.nome > a.ultimoStatus.nome) ? -1 : 0));
         } else {
           this.deputados.sort((b,a) => (a.ultimoStatus.nome > b.ultimoStatus.nome) ? 1 : ((b.ultimoStatus.nome > a.ultimoStatus.nome) ? -1 : 0));
@@ -118,7 +121,10 @@ export class DeputadosComponent implements OnInit {
   }
 
   moreDetails(deputado: any) {
-
+    const dialogRef = this.dialog.open(ExpensesDialogComponent, {
+      width: '99%',
+      data: deputado
+    });
   }
 
   clearAnGoToHome() {

@@ -1,0 +1,41 @@
+.loader {
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    height: 200px;
+}
+
+mat-card {
+    box-shadow: none !important;
+}
+
+mat-card-header {
+    padding: 15px 0;
+    line-height: 40px;
+    height: 40px;
+    display: inline-flex;
+}
+
+mat-card.graph-card.mat-card {
+    height: 590px;
+}
+
+.close {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.total {
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.valor {
+    color: #5a95ce;
+}
+
+// .height: 532px;
+//     overflow: scroll;
+

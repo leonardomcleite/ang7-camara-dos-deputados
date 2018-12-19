@@ -103,8 +103,8 @@ export class DeputadosService implements OnInit {
     return this.httpClient.get(url);
   }
 
-  findDespesas(id: number): Observable<any> {
-    const url = this.urlBase +  'deputados/' + id +  'despesas?ordem=ASC&ordenarPor=ano';
+  findDespesas(id: number, pagina: number, ano: number): Observable<any> {
+    const url = this.urlBase +  'deputados/' + id +  '/despesas?ano=' + ano + '&pagina=' + pagina + '&itens=100&ordem=desc&ordenarPor=ano';
     return this.httpClient.get(url);
   }
 

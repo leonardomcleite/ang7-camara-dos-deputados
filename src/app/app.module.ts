@@ -10,6 +10,8 @@ import { DeputadosModule } from './pages/deputados/deputados.module';
 import { HomepageModule } from './pages/homepage/homepage.module';
 import { InfiniteScrollModule } from 'ngx-infinite-scroll';
 import { FormsModule } from '@angular/forms';
+import { ExpensesDialogModule } from './pages/deputados/expenses-dialog/expenses-dialog/expenses-dialog.module';
+import { ModalDialogModule } from './components/modal-dialog/modal-dialog.module';
 
 @NgModule({
   declarations: [
@@ -26,6 +28,8 @@ import { FormsModule } from '@angular/forms';
 
     HomepageModule,
     DeputadosModule,
+    ExpensesDialogModule,
+    ModalDialogModule,
 
     MatSidenavModule,
     MatButtonModule,

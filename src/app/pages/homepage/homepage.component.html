@@ -1,11 +1,13 @@
 <div class="homepage">
-  <div class="header">
+  <!-- <div class="header">
     <h1 class="title"> Uma Plataforma de Transparência e Participação Social </h1>
+  </div> -->
+  <div class="card-mapa">
+    <mat-card class="card">
+      <div class="title-card">
+        <h1>Selecione um Estado Para Começar</h1>
+      </div>
+      <mapa-do-brasil (clickState)="navigateTo($event)"></mapa-do-brasil>
+    </mat-card>
   </div>
-  <mat-card class="card">
-    <div class="title-card">
-      <h1>Selecione um Estado Para Começar</h1>
-    </div>
-    <mapa-do-brasil (clickState)="navigateTo($event)"></mapa-do-brasil>
-  </mat-card>
 </div>
